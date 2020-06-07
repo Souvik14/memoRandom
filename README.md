@@ -1,5 +1,5 @@
 # memoRandom
-MERN To-do App
+**MERN To-do App**
 
 ## Quick Start guide
 ### Install Server-side dependencies
