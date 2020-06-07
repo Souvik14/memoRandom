@@ -1,0 +1,117 @@
+.todoform {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    background-color: #FAFAD2;
+    color: $dark-color;
+    transition: 0.2s;
+    border-radius: 1rem;
+    margin-bottom: 0.4rem;
+    
+    &-name {
+        font-size: 0.75rem;
+        font-weight: bolder;
+    }
+
+    &-text {
+        width: 100%;
+        border: 1px solid $lightplus-color;
+    }
+
+    &-label {
+        display: flex;
+    }
+
+    &-status {
+        display: flex;
+    }
+
+    &-toggler {
+        padding-top: 1rem;
+    }
+
+    &-line-1 {
+        display: grid;
+        grid-template-columns: 1fr 7fr;
+        grid-gap: 1rem;
+        align-items: center;
+        border-bottom: 1px solid $pri-color;
+
+        & > div:first-child {
+            text-align: center;
+        }
+    }
+
+    &-edit-line-1 {
+        width: 100%;
+        border-bottom: 1px solid $pri-color;
+    }
+
+    &-line-2 {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-gap: 1rem;
+        align-items: center;
+        padding: 0.4rem 0rem;
+        border-bottom: 1px solid $pri-color;
+    }
+
+    &-edit-line-2 {
+        border-bottom: 1px solid $pri-color;
+        padding-bottom: 0.4rem;
+    }
+
+    &-line-3 {
+        //width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-gap: 1rem;
+        align-items: center;
+        padding: 0.4rem 0rem;
+        border-bottom: 1px solid $pri-color;
+
+        &-2 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+
+    &-line-4 {
+        display: grid;
+        grid-template-columns: 4fr 5fr;
+        grid-gap: 1rem;
+        align-items: center;
+        padding: 0.4rem 0rem;
+        border-bottom: 1px solid $pri-color;
+        
+        &-2 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+
+    &-btn-container {
+        padding-top: 0.4rem;
+    }
+
+    &-button {
+        font-family: 'Cabin', sans-serif;
+        padding: 0.2rem 1rem;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-right: 0.5rem;
+        border: none;
+        outline: none;
+        transition: all 0.2s ease-in;
+        background: $lightplus-color;
+        color: #FFF0F5;
+
+        &:hover {
+            background: $light-color;
+            color: $dark-color;
+        }
+    }
+
+    &-toggler-content {
+        display: flex;
+    }
+}

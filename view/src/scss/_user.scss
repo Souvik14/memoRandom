@@ -1,0 +1,39 @@
+.user {
+    margin-top: 1rem;
+    &-line-1 {
+        display: flex;
+
+        & > div:first-child {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &-name {
+        color: $pri-color;
+        font-size: 2rem;
+        padding-top: none;
+    }
+
+    &-info {
+        color: $lightplus-color;
+    }
+
+    &-line-2 {
+        Link {
+            font-family: 'Raleway', sans-serif;
+            color: $dark-color;
+            font-size: 1.5rem;
+        }
+        margin-top: 2rem;
+    }
+    &-btn {
+        font-family: 'Raleway', sans-serif;
+        color: $dark-color;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background-color: #fff;;
+    }
+}

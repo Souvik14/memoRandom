@@ -1,0 +1,119 @@
+// Card
+.cards {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    color: $dark-color;
+    transition: 0.2s;
+    margin-top: 1rem;
+}
+.card {
+    background: $card-color;
+    border-radius: 1rem;
+    margin-bottom: 0.3rem;
+
+    &-text {
+        font-size: 1.2rem;
+        padding-bottom: 0.8rem;
+    }
+
+    &-line-1 {
+        display: flex;
+        justify-content: space-between;
+
+        .card-actions {
+            display: flex;
+            p {
+                padding-left: 0.3rem;
+            }
+        }
+    }
+
+    &-label {
+        display: flex;
+        justify-content: space-between;
+
+        .card-label-names {
+            display: flex;
+            p {
+                padding-left: 1.5rem;
+            }
+        }
+
+        border-top: 1px solid $dark-color;
+        padding: 0.4rem 0rem;
+    }
+
+    &-status {
+        display: flex;
+        justify-content: space-between;
+
+        .card-status-names {
+            display: flex;
+            div {
+                padding-left: 1rem;
+            }
+        }
+
+        border-top: 1px solid $dark-color;
+        padding: 0.4rem 0rem;
+    }
+
+    &-dates {
+        color: $priplus-color;
+        font-size: 0.8rem;
+        padding-bottom: 0.4rem;
+    }
+
+    &-editdate {
+        color: $priplus-color;
+        font-size: 0.8rem;
+        padding-top: 0.4rem;
+    }
+
+
+    &-actions {
+        font-size: 0.8rem;
+    }
+}
+
+.card-label {
+    div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+.card-status {
+    div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+// Buttons
+
+.card-actions-btn {
+    font-family: 'Cabin', sans-serif;
+    //padding: 0.2rem 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    //margin-right: 0.5rem;
+    border: none;
+    outline: none;
+    //transition: all 0.2s ease-in;
+    background: #fbe4a3;
+    color: $priplus-color;
+}
+
+.card-actions-btn-completed {
+    font-family: 'Cabin', sans-serif;
+    //padding: 0.2rem 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    //margin-right: 0.5rem;
+    border: none;
+    outline: none;
+    //transition: all 0.2s ease-in;
+    background: #dac68d;
+    color: $priplus-color;
+}

@@ -1,0 +1,33 @@
+.status-type {
+  display: inline;
+  color: #b22222;
+}
+
+.inl {
+  display: inline;
+}
+
+.toggler-down {
+  margin-top: 0.5rem;
+}
+
+.round-img {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+.sq-img {
+  height: 7.5rem;
+  width: 7.5rem;
+  border: 1px solid $pri-color;
+  border-radius: 10%;
+}
+
+.landing-btns {
+  display: flex;
+}
+
+.pwrd {
+  display: flex;
+}

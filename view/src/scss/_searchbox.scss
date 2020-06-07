@@ -1,0 +1,41 @@
+.searchbox {
+    background-color: #FFEBCD;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+
+    &-line-1 {
+        display: grid;
+        grid-template-columns: 2fr 5.5fr;
+        grid-gap: 1rem;
+        border-bottom: 1px solid $dark-color;
+        padding-bottom: 0.2rem ;
+    }
+
+    &-line-2 {
+        display: grid;
+        grid-template-columns: 2fr 6fr;
+        grid-gap: 1rem;
+        border-bottom: 1px solid $dark-color;
+        padding: 0.2rem 0rem;
+    }
+
+    &-label {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &-status {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &-line-3 {
+        padding-top: 0.2rem;
+    }
+}
+
+.filter {
+    color: $pri-color;
+    font-size: 0.8rem;
+    padding-bottom: 0.4rem;
+}

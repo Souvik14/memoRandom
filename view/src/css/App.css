@@ -1,0 +1,1066 @@
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.main-container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.card-container {
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 0.8rem;
+}
+
+.auth-container {
+  margin: auto;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.user-container {
+  margin: auto;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.x-large-font-light {
+  font-family: 'Raleway', sans-serif;
+  color: #b4830f;
+  font-size: 5rem;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #b4830f;
+}
+
+.large-info-header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.large-font-light {
+  font-family: 'Raleway', sans-serif;
+  color: #b4830f;
+  font-size: 3rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #b4830f;
+}
+
+.lead a {
+  color: #da7b93;
+}
+
+.lead-index {
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #feb300;
+  margin-bottom: 1rem;
+}
+
+.lead-index-info {
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  color: #b4830f;
+  margin-bottom: 0.8rem;
+}
+
+.lead-font-light {
+  font-family: 'Raleway', sans-serif;
+  color: #da7b93;
+  font-size: 0.8rem;
+}
+
+.lead-font-light-ita {
+  font-family: 'Raleway', sans-serif;
+  color: #da7b93;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.lead-form-sub-header {
+  font-family: 'Raleway', sans-serif;
+  color: #2e151b;
+}
+
+.bg-primary {
+  background-color: #b4830f;
+  color: #ffffff;
+}
+
+.bg-light {
+  background-color: #ffaaab;
+  color: #2e151b;
+}
+
+.bg-dark {
+  background-color: #2e151b;
+  color: #ffffff;
+}
+
+.bg-success {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.bg-error {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.bg-white {
+  background-color: #fff;
+  color: #2e151b;
+  border: #ccc 1px solid;
+}
+
+.btn {
+  display: inline-block;
+  background: #ffaaab;
+  color: #2e151b;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in;
+}
+
+.btn.btn-index {
+  background-color: rgba(255, 170, 171, 0.7);
+}
+
+.btn.btn-index:hover {
+  background-color: #ffaaab;
+}
+
+.btn.btn-form {
+  background: #ffaaab;
+}
+
+.btn.btn-form:hover {
+  background: #ffc4c4;
+}
+
+.link {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-family: 'Cabin', sans-serif;
+}
+
+.link.link-light {
+  color: #da7b93;
+}
+
+.form {
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 0.4rem;
+}
+
+.form-text {
+  display: block;
+  color: #b4830f;
+  margin-bottom: 0.2rem;
+}
+
+.form-text.text-inline {
+  display: inline;
+}
+
+.form input[type='text'],
+.form input[type='email'],
+.form input[type='password'],
+.form select,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #2e151b;
+}
+
+.form input[type='submit'] {
+  font: inherit;
+}
+
+.form input[type='date'] {
+  display: block;
+  width: 35%;
+  padding: 0.2rem;
+  font-size: 1rem;
+  border: 1px solid #2e151b;
+}
+
+.alert-light {
+  background-color: #da7b93;
+  color: #ffffff;
+}
+
+.alert-dark {
+  background-color: #2e151b;
+  color: #ffffff;
+}
+
+.alert-success {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.alert-error {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.alert-inner {
+  width: 900px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  margin: 0.6rem auto;
+  border-radius: 0.5rem;
+  z-index: 2;
+}
+
+.alert-normal {
+  font-family: 'Cabin', sans-serif;
+  font-size: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  z-index: 2;
+}
+
+.alert-fixed {
+  font-family: 'Cabin', sans-serif;
+  font-size: 0.8rem;
+  padding: 0.5rem 0.8rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  top: 90%;
+  width: 30%;
+  position: fixed;
+  left: 50%;
+  margin-left: -15%;
+  text-align: center;
+  z-index: 2;
+}
+
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.cards {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1rem;
+  color: #2e151b;
+  transition: 0.2s;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #fbe4a3;
+  border-radius: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  padding-bottom: 0.8rem;
+}
+
+.card-line-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-line-1 .card-actions {
+  display: flex;
+}
+
+.card-line-1 .card-actions p {
+  padding-left: 0.3rem;
+}
+
+.card-label {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #2e151b;
+  padding: 0.4rem 0rem;
+}
+
+.card-label .card-label-names {
+  display: flex;
+}
+
+.card-label .card-label-names p {
+  padding-left: 1.5rem;
+}
+
+.card-status {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #2e151b;
+  padding: 0.4rem 0rem;
+}
+
+.card-status .card-status-names {
+  display: flex;
+}
+
+.card-status .card-status-names div {
+  padding-left: 1rem;
+}
+
+.card-dates {
+  color: #73550e;
+  font-size: 0.8rem;
+  padding-bottom: 0.4rem;
+}
+
+.card-editdate {
+  color: #73550e;
+  font-size: 0.8rem;
+  padding-top: 0.4rem;
+}
+
+.card-actions {
+  font-size: 0.8rem;
+}
+
+.card-label div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-status div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-actions-btn {
+  font-family: 'Cabin', sans-serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #fbe4a3;
+  color: #73550e;
+}
+
+.card-actions-btn-completed {
+  font-family: 'Cabin', sans-serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #dac68d;
+  color: #73550e;
+}
+
+.todoform {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1rem;
+  background-color: #FAFAD2;
+  color: #2e151b;
+  transition: 0.2s;
+  border-radius: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.todoform-name {
+  font-size: 0.75rem;
+  font-weight: bolder;
+}
+
+.todoform-text {
+  width: 100%;
+  border: 1px solid #da7b93;
+}
+
+.todoform-label {
+  display: flex;
+}
+
+.todoform-status {
+  display: flex;
+}
+
+.todoform-toggler {
+  padding-top: 1rem;
+}
+
+.todoform-line-1 {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid #b4830f;
+}
+
+.todoform-line-1 > div:first-child {
+  text-align: center;
+}
+
+.todoform-edit-line-1 {
+  width: 100%;
+  border-bottom: 1px solid #b4830f;
+}
+
+.todoform-line-2 {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 1rem;
+  align-items: center;
+  padding: 0.4rem 0rem;
+  border-bottom: 1px solid #b4830f;
+}
+
+.todoform-edit-line-2 {
+  border-bottom: 1px solid #b4830f;
+  padding-bottom: 0.4rem;
+}
+
+.todoform-line-3 {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 1rem;
+  align-items: center;
+  padding: 0.4rem 0rem;
+  border-bottom: 1px solid #b4830f;
+}
+
+.todoform-line-3-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todoform-line-4 {
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+  grid-gap: 1rem;
+  align-items: center;
+  padding: 0.4rem 0rem;
+  border-bottom: 1px solid #b4830f;
+}
+
+.todoform-line-4-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.todoform-btn-container {
+  padding-top: 0.4rem;
+}
+
+.todoform-button {
+  font-family: 'Cabin', sans-serif;
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in;
+  background: #da7b93;
+  color: #FFF0F5;
+}
+
+.todoform-button:hover {
+  background: #ffaaab;
+  color: #2e151b;
+}
+
+.todoform-toggler-content {
+  display: flex;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+  margin-top: 0.2rem;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #da7b93;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #da7b93;
+}
+
+input:checked + .slider:before {
+  transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 17px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.status-type {
+  display: inline;
+  color: #b22222;
+}
+
+.inl {
+  display: inline;
+}
+
+.toggler-down {
+  margin-top: 0.5rem;
+}
+
+.round-img {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+.sq-img {
+  height: 7.5rem;
+  width: 7.5rem;
+  border: 1px solid #b4830f;
+  border-radius: 10%;
+}
+
+.landing-btns {
+  display: flex;
+}
+
+.pwrd {
+  display: flex;
+}
+
+.searchbox {
+  background-color: #FFEBCD;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+.searchbox-line-1 {
+  display: grid;
+  grid-template-columns: 2fr 5.5fr;
+  grid-gap: 1rem;
+  border-bottom: 1px solid #2e151b;
+  padding-bottom: 0.2rem;
+}
+
+.searchbox-line-2 {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  grid-gap: 1rem;
+  border-bottom: 1px solid #2e151b;
+  padding: 0.2rem 0rem;
+}
+
+.searchbox-label {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.searchbox-status {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.searchbox-line-3 {
+  padding-top: 0.2rem;
+}
+
+.filter {
+  color: #b4830f;
+  font-size: 0.8rem;
+  padding-bottom: 0.4rem;
+}
+
+.user {
+  margin-top: 1rem;
+}
+
+.user-line-1 {
+  display: flex;
+}
+
+.user-line-1 > div:first-child {
+  margin-right: 1.5rem;
+}
+
+.user-name {
+  color: #b4830f;
+  font-size: 2rem;
+  padding-top: none;
+}
+
+.user-info {
+  color: #da7b93;
+}
+
+.user-line-2 {
+  margin-top: 2rem;
+}
+
+.user-line-2 Link {
+  font-family: 'Raleway', sans-serif;
+  color: #2e151b;
+  font-size: 1.5rem;
+}
+
+.user-btn {
+  font-family: 'Raleway', sans-serif;
+  color: #2e151b;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.customsearch-datetime-line-1 {
+  border-bottom: 1px solid #b4830f;
+  padding-bottom: 0.4rem;
+}
+
+.customsearch-datetime-line-2 {
+  border-bottom: 1px solid #b4830f;
+  padding: 0.4rem 0rem;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border: 1px solid #da7b93;
+  border-radius: 25%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #da7b93;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.abt-intro {
+  color: #b4830f;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+}
+
+.abt-thin-header {
+  color: #2e151b;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+}
+
+.abt-header, .abt-sub-header {
+  color: #da7b93;
+}
+
+.abt-name {
+  color: #b4830f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: #b4830f;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+textarea {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  opacity: 0.9;
+  background: #2e151b;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #b4830f;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  color: #feb300;
+  transition: all 0.2s ease-in;
+}
+
+.landing {
+  position: relative;
+  background: url("../img/pedestrians-bg.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.landing-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing .dictionary {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.login-signup-area {
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+.info-area {
+  width: 50%;
+  float: right;
+  border-left: 1px #2e151b solid;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.perk-info {
+  padding-left: 20px;
+}
+
+.fancy-checkbox input[type="checkbox"],
+.fancy-checkbox .checked {
+  display: none;
+}
+
+.fancy-checkbox input[type="checkbox"],
+.fancy-checkbox .checked {
+  display: none;
+}
+
+.fancy-checkbox input[type="checkbox"]:checked ~ .checked {
+  display: inline-block;
+}
+
+.fancy-checkbox input[type="checkbox"]:checked ~ .unchecked {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .hide-sm {
+    display: none;
+  }
+  .card-label {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #2e151b;
+    padding: 0.4rem 0rem;
+  }
+  .card-label .card-label-names {
+    display: flex;
+  }
+  .card-label .card-label-names p {
+    padding-left: 1rem;
+  }
+  .todoform-text {
+    border-left: none;
+    border-right: none;
+  }
+  .todoform-line-2 {
+    display: block;
+  }
+  .todoform-line-3 {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 0.4rem;
+    align-items: center;
+    padding: 0.4rem 0rem;
+    border-bottom: 1px solid #b4830f;
+  }
+  .todoform-line-3-2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .react-datetime-picker__calendar {
+    width: 350px;
+    max-width: 75vw;
+    height: 210px;
+  }
+  .comp-header {
+    font-size: 1.2rem;
+  }
+  .comp-sub-header {
+    font-size: 1rem;
+  }
+  .land-less-header {
+    font-size: 2.5rem;
+  }
+  .land-less-sub-header {
+    font-size: 1.1rem;
+  }
+  .login-signup-area {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+  }
+  .ask {
+    display: block;
+  }
+  .user-line-1 {
+    display: block;
+  }
+  .user-name {
+    font-size: 1.2rem;
+  }
+  .user-info {
+    font-size: 0.8rem;
+  }
+  .abt-intro {
+    font-size: 1.5rem;
+  }
+  .less {
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }
+  .alert-fixed {
+    font-family: 'Cabin', sans-serif;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.8rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    top: 90%;
+    width: 80%;
+    position: fixed;
+    left: 50%;
+    margin-left: -40%;
+    text-align: center;
+    z-index: 2;
+  }
+}

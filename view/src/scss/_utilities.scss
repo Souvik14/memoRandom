@@ -1,0 +1,272 @@
+// Container
+.main-container {
+    max-width: $max-width;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.card-container {
+    max-width: $cards-max-width;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 0.8rem;
+}
+
+
+
+.auth-container {
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.user-container {
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+// Text Styles
+.x-large {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+
+    &-font-light {
+        font-family: 'Raleway', sans-serif;
+        color: $pri-color;
+        font-size: 5rem;
+    }
+}
+
+.large {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: $pri-color;
+
+    &-info-header {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    &-font-light {
+        font-family: 'Raleway', sans-serif;
+        color: $pri-color;
+        font-size: 3rem;
+    }
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: $pri-color;
+
+    a {
+        color: $lightplus-color;
+    }
+
+    &-index {
+        font-size: 1.5rem;
+        font-family: 'Raleway', sans-serif;
+        color: $priminus-color;
+        margin-bottom: 1rem;
+
+        &-info {
+            font-size: 1.5rem;
+            font-family: 'Raleway', sans-serif;
+            color: $pri-color;
+            margin-bottom: 0.8rem;
+        }
+    }
+
+    &-font-light {
+        font-family: 'Raleway', sans-serif;
+        color: $lightplus-color;
+        font-size: 0.8rem;
+    }
+
+    &-font-light-ita {
+        font-family: 'Raleway', sans-serif;
+        color: $lightplus-color;
+        font-size: 0.8rem;
+        font-style: italic;
+    }
+
+    &-form-sub-header {
+        font-family: 'Raleway', sans-serif;
+        color: $dark-color;
+    }
+}
+
+// Backgrounds
+.bg {
+    &-primary {
+        @include set-bg($pri-color);
+    }
+    &-light {
+        @include set-bg($light-color);
+    }
+    &-dark {
+        @include set-bg($dark-color);
+    }
+    &-success {
+        @include set-bg($success-color);
+    }
+    &-error {
+        @include set-bg($error-color);
+    }
+    &-white {
+        @include set-bg(#fff);
+        border: #ccc 1px solid;
+    }
+}
+
+// Buttons
+.btn {
+    display: inline-block;
+    background: $light-color;
+    color: $dark-color;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease-in;
+
+    &.btn-index {
+        background-color: rgba(255, 170, 171, 0.7);
+        &:hover {
+            background-color: rgb(255, 170, 171);
+        }
+    }
+
+    &.btn-form {
+        background: $light-color;
+        &:hover {
+            background: lighten($light-color,5%);
+        }
+    }
+}
+
+
+//Links
+.link {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: 'Cabin', sans-serif;
+    &.link-light {
+        color: $lightplus-color;
+    }
+}
+
+
+// Forms
+.form {
+    margin-bottom: 1rem;
+
+    &-group {
+        margin-bottom: 0.4rem;
+    }
+
+    &-text {
+        display: block;
+        color: $pri-color;
+        margin-bottom: 0.2rem;
+        
+        &.text-inline {
+            display: inline;
+        }
+    }
+
+    input[type='text'],
+    input[type='email'],
+    input[type='password'],
+    select,
+    textarea {
+        display: block;
+        width: 100%;
+        padding: 0.4rem;
+        font-size: 1.2rem;
+        border: 1px solid $dark-color;
+    }
+
+    input[type='submit'] {
+        font: inherit;
+    }
+
+    input[type='date'] {
+        display: block;
+        width: 35%;
+        padding: 0.2rem;
+        font-size: 1rem;
+        border: 1px solid $dark-color;
+    }
+}
+
+// Alerts
+
+.alert {
+  
+    &-light {
+      @include set-bg($lightplus-color);
+    }
+    &-dark {
+      @include set-bg($dark-color);
+    }
+    &-success {
+      @include set-bg($success-color);
+    }
+    &-error {
+      @include set-bg($error-color);
+    }
+    &-inner {
+        width: 900px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        margin: 0.6rem auto;
+        border-radius: 0.5rem;
+        z-index: 2;
+    }
+    &-normal {
+        font-family: 'Cabin', sans-serif;
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+        z-index: 2;
+    }
+    &-fixed {
+        font-family: 'Cabin', sans-serif;
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        margin: 0 auto;
+        border-radius: 0.5rem;
+        // background: $light-color;
+        // color: $dark-color;
+        
+        top: 90%;
+        width: 30%;
+        position: fixed;
+        left: 50%;
+        margin-left: -15%;
+        text-align: center;
+        z-index: 2;
+    }
+  }
+
+
+
+.dark-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.75);
+}
